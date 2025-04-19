@@ -1,0 +1,57 @@
+.sidebar {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    width: 250px;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #333;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .collectionList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .collectionItem {
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    color: #ddd;
+  
+    &:hover {
+      background-color: #2d2d2d;
+    }
+  }
+  
+  .addButton {
+    background-color: #ffa500;
+    color: #000;
+    border: none;
+    padding: 10px 12px;
+    margin-top: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s;
+  
+    &:hover {
+      background-color: #ffb733;
+    }
+  }
+  

@@ -1,0 +1,106 @@
+.container {
+    background-color: #000;
+    color: #e0e0e0;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: monospace;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .authRow {
+    margin: 20px 0;
+  }
+  
+  .checkboxRow {
+    margin-top: 10px;
+  }
+  
+  .responseBlock {
+    margin-top: 30px;
+  }
+  
+  .responseTitle {
+    color: #4fc3f7;
+  }
+  
+  .responseMeta {
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  
+  .kvRow {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .input {
+    padding: 8px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: 1px solid #555;
+    flex: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown {
+    padding: 8px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 8px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #0987ef;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .activeTab {
+    background-color: #ffa500;
+    color: #000;
+  }
+  
+  .responseArea {
+    width: 100%;
+    height: 300px;
+    background-color: #1e1e1e;
+    color: #ffbf00;
+    padding: 10px;
+    font-family: monospace;
+    border-radius: 5px;
+    resize: vertical;
+    border: 1px solid #555;
+    margin-bottom: 10px;
+  }
+  
+  .exportButtons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  

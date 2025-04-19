@@ -1,0 +1,35 @@
+.footer {
+    background-color: #0d0d0d;
+    color: #097af2;
+    padding: 2rem 1rem;
+    text-align: center;
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    p {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+  
+    .socialIcons {
+      display: flex;
+      gap: 1rem;
+  
+      a {
+        color: #e91e63;
+        font-size: 1.4rem;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #ff79b0;
+        }
+      }
+    }
+  }
+  
